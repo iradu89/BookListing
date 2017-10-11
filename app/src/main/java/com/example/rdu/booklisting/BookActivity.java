@@ -18,7 +18,7 @@ public class BookActivity extends AppCompatActivity implements LoaderManager.Loa
 
     private BookAdapter mAdapter;
 
-    //tag for log messages
+    //tag for log messagess
     public static final String LOG_TAG = BookActivity.class.getSimpleName();
     private static final int BOOK_LOADER_ID = 1;
     private final String BOOKS_REQUEST_URL_BASIC = "https://www.googleapis.com/books/v1/volumes?q=";
